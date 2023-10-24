@@ -1,0 +1,1 @@
+This is the PURE EVIL repo. Of course you can trust this!

